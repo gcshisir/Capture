@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Utility styles */
+h1 {
+  font-size: 42px !important;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+span {
+  font-size: 47px;
+  color: #96bab6;
+}
+
+p {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 5px 0 !important;
+}
+
+button {
+  cursor: pointer;
+  width: 20px !important;
+}
+
+button:focus {
+  outline: none;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+}
+
+/* Component classes */
+.showcase {
+  max-width: 100vw !important;
+  height: 90vh;
+  background: #fff;
+}
+
+.btn {
+  margin: 10px 0;
+  width: 210px;
+  padding: 10px 20px;
+  font-size: 24px !important;
+  border-radius: 50px !important;
+  background: #96bab6 !important;
+  border: none !important;
+  color: #333 !important;
+}
+
+.btn:hover {
+  background: transparent !important;
+  border: 1px solid #96bab6 !important;
+}
+
+/* Services Section */
+.services-section {
+  margin: 38px auto;
+}
+
+.img-card {
+  height: auto;
+  width: 100%;
+}
+
+.card-body p {
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.link{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-read-more{
+  margin: 8px auto !important;
+  padding: 5px 10px !important;
+  width: auto;
+  font-size: 1rem !important;
+}
+
+/* Contact Us page */
+
+.submit-container{
+  width: 100%;
+}
+
+.btn-submit {
+  margin: 8px auto !important;
+  padding: 8px 22px !important;
+  width: auto !important;
+  font-size: 1rem !important;
+  font-size: 1.3rem !important;
+}
+
+/* Footer */
+.footer {
+  height: 7vh;
+  width: 100vw !important;
+  color: #96bab6;
+  background-color: #333;
+  overflow-x: hidden;
+  font-weight: 500;
+}
