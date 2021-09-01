@@ -79,12 +79,12 @@ img {
   text-align: center;
 }
 
-.link{
+.link {
   display: flex;
   justify-content: center;
 }
 
-.btn-read-more{
+.btn-read-more {
   margin: 8px auto !important;
   padding: 5px 10px !important;
   width: auto;
@@ -93,7 +93,7 @@ img {
 
 /* Contact Us page */
 
-.submit-container{
+.submit-container {
   width: 100%;
 }
 
@@ -107,8 +107,6 @@ img {
 
 /* Footer */
 .footer {
-  height: 7vh;
-  width: 100vw !important;
   color: #96bab6;
   background-color: #333;
   overflow-x: hidden;
