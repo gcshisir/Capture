@@ -20,10 +20,11 @@ import {
   slider,
   sliderContainer,
 } from "../animation";
+import ScrollTop from "../components/ScrollToTop";
 
 const OurWork = () => {
-  const [element, controls] = useScroll();
-  const [element2, controls2] = useScroll();
+  // const [element, controls] = useScroll();
+  // const [element2, controls2] = useScroll();
 
   return (
     <Work
@@ -48,20 +49,35 @@ const OurWork = () => {
           </Hide>
         </Link>
       </Movie>
-      <Movie ref={element} variants={fade} animate={controls} initial="hidden">
+      <Movie>
+        <h2>The Racer</h2>
+        <motion.div className="line"></motion.div>
+        <Link to="/work/the-racer">
+          <img src={theracer} alt="theracer" />
+        </Link>
+      </Movie>
+      {/* <Movie ref={element} variants={fade} animate={controls} initial="hidden">
         <h2>The Racer</h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/work/the-racer">
           <img src={theracer} alt="theracer" />
         </Link>
+      </Movie> */}
+      <Movie>
+        <h2>The Goodtimes</h2>
+        <motion.div div className="line"></motion.div>
+        <Link to="/work/good-times">
+          <img src={goodtimes} alt="goodtimes" />
+        </Link>
       </Movie>
-      <Movie ref={element2} variants={fade} animate={controls2} initial="hidden">
+      {/* <Movie ref={element2} variants={fade} animate={controls2} initial="hidden">
         <h2>The Goodtimes</h2>
         <motion.div variants={lineAnim} div className="line"></motion.div>
         <Link to="/work/good-times">
           <img src={goodtimes} alt="goodtimes" />
         </Link>
-      </Movie>
+      </Movie> */}
+      <ScrollTop />
     </Work>
   );
 };
