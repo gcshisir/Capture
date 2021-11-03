@@ -74,23 +74,21 @@ const Faq = styled(About)`
   .faq-line {
     background: #cccccc;
     height: 0.2rem;
-    margin: 2rem, 0;
-    width 100% ;
+    margin: 2rem 0;
+    width: 100%;
   }
 
-  .question{
-    padding:3rem 0;
-    cursor:pointer;
+  .question {
+    padding: 3rem 0;
+    cursor: pointer;
   }
 
-  .answer{
-    padding:2rem 0;
-    
-    p{
-      padding:1rem 0;
+  .answer {
+    padding: 2rem 0;
+
+    p {
+      padding: 1rem 0;
     }
-
-
   }
 `;
 

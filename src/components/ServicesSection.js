@@ -25,33 +25,33 @@ const ServicesSection = () => {
           High <span>quality</span>services
         </h2>
         <Cards>
-          <div className="card">
+          <Card>
             <div className="icon">
               <img src={clock} alt="clock" />
               <h3>Efficient</h3>
-              <p>Lorem ipsum dolor sit amet.</p>
             </div>
-          </div>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </Card>
           <Card>
             <div className="icon">
               <img src={teamwork} alt="teamwork" />
               <h3>Team Work</h3>
-              <p>Lorem ipsum dolor sit amet.</p>
             </div>
+            <p>Lorem ipsum dolor sit amet.</p>
           </Card>
           <Card>
             <div className="icon">
               <img src={diaphragm} alt="diaphragm" />
               <h3>Diaphragm</h3>
-              <p>Lorem ipsum dolor sit amet.</p>
             </div>
+            <p>Lorem ipsum dolor sit amet.</p>
           </Card>
           <Card>
             <div className="icon">
               <img src={money} alt="money" />
               <h3>Affordable</h3>
-              <p>Lorem ipsum dolor sit amet.</p>
             </div>
+            <p>Lorem ipsum dolor sit amet.</p>
           </Card>
         </Cards>
       </Description>
@@ -75,6 +75,10 @@ const Services = styled(About)`
 const Cards = styled.div`
   display: flex;
   flex-wrap: wrap;
+
+  @media (max-width: 1300) {
+    justify-content: center;
+  }
 `;
 
 const Card = styled.div`
